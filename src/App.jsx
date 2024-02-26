@@ -14,7 +14,8 @@ function App() {
 
 
   return (
-    <div className='h-svh w-screen flex flex-col items-center bg-bgbase overflow-x-hidden scroll-smooth'>
+    <div className="reden-loaded">
+          <div className='h-svh w-screen flex flex-col items-center bg-bgbase overflow-x-hidden scroll-smooth'>
       <div id="home" className="max-w-[1000px] w-full ">
         <Header />
       </div>
@@ -36,22 +37,18 @@ function App() {
           <AboutUs />
         </div>
       </div>
-
+{/* 
       <div className=" h-auto w-full flex flex-col items-center my-[4rem]">
         <div className='max-w-[1000px] w-full  px-6'>
           <Review />
         </div>
-      </div>
+      </div> */}
 
       <div className="fixed left-2 bottom-4 ">
         <a href="https://maps.app.goo.gl/PfzWBHdRfwy3EAMSA" target="_blank" >
           <HiLocationMarker className='text-yellow-400 size-10 sm:size-14 animate-bounce'/>
           <p className='text-redbox font-bold'>location</p>
         </a>
-
-
-
-
       </div>
 
       <div className="bg-bgboxbase h-auto w-full flex flex-col items-center ">
@@ -61,6 +58,8 @@ function App() {
       </div>
 
     </div>
+    </div>
+
   )
 }
 

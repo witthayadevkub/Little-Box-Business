@@ -9,7 +9,7 @@ const Section = () => {
             <div className='grid place-content-center  sm:grid-cols-[1fr_1fr] py-10  relative  '>
                 <div className="text-white text-center md:text-start">
                     <h4 className='text-[4rem] md:text-[2.5rem] text-redbox mb-2'>LIITLE BOX</h4>
-                    <div className="text-lg leading-6 mb-2 hidden md:block">
+                    <div className="text-lg leading-6 mb-2 hidden md:block font-bold">
                         <p>little-box, our service big-box </p>
                         <p>Big Service in Small Packages, <br />Amplifying Your Shipments,<br />Delivering More Than Expected</p>
                     </div>
